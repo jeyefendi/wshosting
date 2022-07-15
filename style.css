@@ -5,6 +5,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "SF Pro Display 200";
+  src: url(./SF_Pro_Display_200.otf);
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +30,7 @@ a {
   display: flex;
 }
 
-.logo img {
+.logo_ws {
   position: absolute;
   height: 88px;
   width: 143px;
@@ -37,12 +43,19 @@ a {
   color: #fff;
 }
 
-.phone {
+.phone, .email {
   display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5em;
   position: absolute;
   width: 178px;
-  height: 28px;
   left: 530px;
+  font-size: 1em;
+}
+
+.phone {
+  height: 28px;
   top: 11px;
 }
 
@@ -52,12 +65,8 @@ a {
 }
 
 .email {
-  display: flex;
-  position: absolute;
-  width: 168px;
   height: 44px;
-  left: 530px;
-  top: 54px;
+  top: 44px;
 }
 
 .email img {
@@ -65,15 +74,15 @@ a {
   height: 28px;
 }
 
-.phone span {
+.email span {
   position: absolute;
-  width: 107px;
+  width: 207px;
   height: 21px;
-  left: 61px;
-  top: 77px;
-  font-family: "SF Pro Display";
+  left: 56px;
+  top: 30px;
+  font-family: "SF Pro Display 200";
   font-style: italic;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 14px;
   line-height: 150%;
 }
