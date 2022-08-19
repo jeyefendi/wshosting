@@ -1,3 +1,5 @@
-# wshosting
+# WShosting
 Test Task for Dom saitov©
-## 20:30 LET'S GET IT STARTED!
+><b>HTML <br>CSS</b>
+# [LIVE DEMO](https://jeyefendi.github.io/wshosting/)
+![Logo](./COVER.webp)
